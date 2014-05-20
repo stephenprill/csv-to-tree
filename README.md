@@ -1,14 +1,33 @@
-# Name of exercise
+# Employee CSV Tree Parser
 
-Add basic setup here.
+Your job is to user the .csv file in the `data` directory to construct a tree of employee hierarchy.
+The keys in the final tree should represent an employee, while the values should represent that employee's boss.
 
 ## Examples
 
-Show concrete examples
+For the given set of data, your final result should look like the following:
+
+`
+({
+"Al Dente" => nil,
+"Anne Teak" => "Al Dente",
+"Barb Dwyer" => "Al Dente",
+"Bill Ding" => "Barb Dwyer",
+"Chris Cross" => "Barb Dwyer",
+"Jay Walker" => nil,
+"Joy Rider" => nil,
+"Kenny Penny" => "Joy Rider",
+"Les Moore" => "Kenny Penny",
+"Lou Pole" => "Joy Rider",
+"M. Balmer" => "Lou Pole",
+"Sonny Day" => "Lou Pole",
+"Tim Burr" => "Sonny Day",
+})
+`
 
 # Extra
 
-Add extra challenges here.
+For an extra challenge, create an even more in-depth csv file and test your code.
 
 # Setup
 
