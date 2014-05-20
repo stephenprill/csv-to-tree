@@ -9,33 +9,19 @@ For the given set of data, your final result should look like the following:
 
 `
 ({
-
 "Al Dente" => nil,
-
 "Anne Teak" => "Al Dente",
-
 "Barb Dwyer" => "Al Dente",
-
 "Bill Ding" => "Barb Dwyer",
-
 "Chris Cross" => "Barb Dwyer",
-
 "Jay Walker" => nil,
-
 "Joy Rider" => nil,
-
 "Kenny Penny" => "Joy Rider",
-
 "Les Moore" => "Kenny Penny",
-
 "Lou Pole" => "Joy Rider",
-
 "M. Balmer" => "Lou Pole",
-
 "Sonny Day" => "Lou Pole",
-
 "Tim Burr" => "Sonny Day",
-
 })
 `
 
