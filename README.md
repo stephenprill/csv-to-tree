@@ -1,6 +1,6 @@
 # Employee CSV Tree Parser
 
-Your job is to user the .csv file in the `data` directory to construct a tree of employee hierarchy.
+Your job is to use the .csv file in the `data` directory to construct a tree of employee hierarchy.
 The keys in the final tree should represent an employee, while the values should represent that employee's boss.
 
 ## Examples
@@ -9,19 +9,19 @@ For the given set of data, your final result should look like the following:
 
 `
 ({
-"Al Dente" => nil,
-"Anne Teak" => "Al Dente",
-"Barb Dwyer" => "Al Dente",
-"Bill Ding" => "Barb Dwyer",
-"Chris Cross" => "Barb Dwyer",
-"Jay Walker" => nil,
-"Joy Rider" => nil,
-"Kenny Penny" => "Joy Rider",
-"Les Moore" => "Kenny Penny",
-"Lou Pole" => "Joy Rider",
-"M. Balmer" => "Lou Pole",
-"Sonny Day" => "Lou Pole",
-"Tim Burr" => "Sonny Day",
+"Al Dente" => nil, <br/>
+"Anne Teak" => "Al Dente",<br/>
+"Barb Dwyer" => "Al Dente",<br/>
+"Bill Ding" => "Barb Dwyer",<br/>
+"Chris Cross" => "Barb Dwyer",<br/>
+"Jay Walker" => nil,<br/>
+"Joy Rider" => nil,<br/>
+"Kenny Penny" => "Joy Rider",<br/>
+"Les Moore" => "Kenny Penny",<br/>
+"Lou Pole" => "Joy Rider",<br/>
+"M. Balmer" => "Lou Pole",<br/>
+"Sonny Day" => "Lou Pole",<br/>
+"Tim Burr" => "Sonny Day",<br/>
 })
 `
 
