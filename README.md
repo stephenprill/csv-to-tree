@@ -1,28 +1,44 @@
 # Employee CSV Tree Parser
 
 Your job is to use the .csv file in the `data` directory to construct a tree of employee hierarchy.
-The keys in the final tree should represent an employee, while the values should represent that employee's boss.
+The result should be a string, indented appropriately to show the hierarchy.
 
 ## Examples
 
-For the given set of data, your final result should look like the following:
+Employee       | Manager
+-------------- | ----------
+Al Dente       |
+Anne Teak      | Al Dente
+Barb Dwyer     | Al Dente
+Bill Ding      | Barb Dwyer
+Chris Cross    | Barb Dwyer
+Jay Walker     |
+Joy Rider      |
+Kenny Penny    | Joy Rider
+Les Moore      | Kenny Penny
+Lou Pole       | Joy Rider
+M. Balmer      | Lou Pole
+Sonny Day      | Lou Pole
+Tim Burr       | Sonny Day
+
+
+For the given set of data above, your final result should look like the following:
+
 
 ```
-({
-"Al Dente" => nil,
-"Anne Teak" => "Al Dente",
-"Barb Dwyer" => "Al Dente",
-"Bill Ding" => "Barb Dwyer",
-"Chris Cross" => "Barb Dwyer",
-"Jay Walker" => nil,
-"Joy Rider" => nil,
-"Kenny Penny" => "Joy Rider",
-"Les Moore" => "Kenny Penny",
-"Lou Pole" => "Joy Rider",
-"M. Balmer" => "Lou Pole",
-"Sonny Day" => "Lou Pole",
-"Tim Burr" => "Sonny Day",
-})
+Al Dente
+  Anne Teak
+  Barb Dwyer
+    Bill Ding
+    Chris Cross
+Jay Walker
+Joy Rider
+  Kenny Penny
+    Les Moore
+  Lou Pole
+    M. Balmer
+    Sonny Day
+      Tim Burr
 ```
 
 # Extra
