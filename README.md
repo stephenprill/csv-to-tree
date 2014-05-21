@@ -7,7 +7,7 @@ The keys in the final tree should represent an employee, while the values should
 
 For the given set of data, your final result should look like the following:
 
-`
+```
 ({
 "Al Dente" => nil,
 "Anne Teak" => "Al Dente",
@@ -23,7 +23,7 @@ For the given set of data, your final result should look like the following:
 "Sonny Day" => "Lou Pole",
 "Tim Burr" => "Sonny Day",
 })
-`
+```
 
 # Extra
 
